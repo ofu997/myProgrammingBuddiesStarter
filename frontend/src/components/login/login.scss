@@ -1,0 +1,19 @@
+.loginContainer {
+  float: right;
+  color: white;
+  margin-right: 20px;
+}
+
+.loginElements {
+  display: flex;
+  flex-direction: column;
+  margin-Top: 10px; 
+}
+
+hr {
+  border: 1px solid gray;
+}
+
+pAlignLeft {
+  text-align: left;
+}

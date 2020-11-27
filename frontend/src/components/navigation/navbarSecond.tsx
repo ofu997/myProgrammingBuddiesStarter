@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbarSecond.scss";
 import { Link } from "react-router-dom";
+import Login from '../login/login.js'
 
 export default function NavBarSecond() {
   return (
@@ -23,6 +24,10 @@ export default function NavBarSecond() {
       <Link className="linkFromNav" to="/account/orders">
         Orders
       </Link>
+      <Link className="linkFromNav" to="/account/orders">
+        Orders
+      </Link>
+      <Login />
     </div>
   );
 }
